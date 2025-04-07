@@ -53,7 +53,7 @@ Olá, eu sou o Ana, tenho 29 ano(s), peso 60kg, tenho 1.65m e já caminhei 300 m
 ## 📦 Estrutura do Projeto
 
 ```
-📁 sistema-cadastro-pessoas-js
+📁 sistema-de-cadastro-e-relatorio-de-pessoas
 ├── index.js
 └── README.md
 ```
