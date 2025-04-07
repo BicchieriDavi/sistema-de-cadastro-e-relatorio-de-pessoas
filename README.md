@@ -62,6 +62,6 @@ Olá, eu sou o Ana, tenho 29 ano(s), peso 60kg, tenho 1.65m e já caminhei 300 m
 
 - **Davi Pessoa Antunes Bicchieri**  
   Estudante de Sistemas de Informação | Desenvolvedor em formação  
-  [LinkedIn](www.linkedin.com/in/bicchieridavi)
+  [LinkedIn](https://www.linkedin.com/in/bicchieridavi)
 
 ---
