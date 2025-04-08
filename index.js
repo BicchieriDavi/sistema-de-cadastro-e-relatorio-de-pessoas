@@ -34,7 +34,11 @@
       },
       apresentar() {
         console.log(
-          `Olá, eu sou o ${this.nome}, tenho ${this.idade} ano(s), peso ${this.peso}kg, tenho ${this.altura}m e já caminhei ${this.caminhouQuantosMetros} metro(s).`
+          `Olá, eu sou o ${this.nome}, tenho ${this.idade} ${
+            this.idade === 1 ? `ano` : `anos`
+          } , peso ${this.peso}kg, tenho ${this.altura}m e já caminhei ${
+            this.caminhouQuantosMetros
+          } ${this.caminhouQuantosMetros === 1 ? `metro` : `metros`}.`
         );
       },
     });
@@ -44,13 +48,14 @@
   };
 
   const gerarRelatorio = function gerarRelatorio() {
-    for (var i = 0; i < cadastro.length; i++) {
+    for (let i = 0; i < cadastro.length; i++) {
       cadastro[i].apresentar();
     }
   };
   cadastrarPessoa("Pedro", 20, "Masculino", 80, 1.76);
   cadastrarPessoa("Maria", 19, "Feminino", 50, 1.54);
   cadastrarPessoa("João", 56, "Masculino", 70, 1.63);
+  cadastrarPessoa("Jorge", 1, "Masculino", 10, 0.3);
 
   console.log(cadastro);
   cadastro[0].fazerAniversario();
@@ -68,7 +73,7 @@
   cadastro[1].andar(77);
   cadastro[2].andar(0);
   cadastro[2].andar(-5);
-  cadastro[2].andar(70);
+  cadastro[2].andar(1);
 
   cadastro[2].fazerAniversario();
   cadastro[1].parar();
